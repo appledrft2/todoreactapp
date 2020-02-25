@@ -18,9 +18,9 @@ function Header(){
         <Navbar className="bg-dark justify-content-between">
             <Navbar.Brand href="#home" style={navStyles}>Simple Todo app</Navbar.Brand>
             <Nav className="ml-auto">
-            <Nav.Link><Link style={navStyles} to="/">Homes</Link></Nav.Link>
-                <Nav.Link><Link style={navStyles} to="/home">Table</Link></Nav.Link>
-                <Nav.Link><Link style={navStyles} to="/about">About</Link></Nav.Link>
+            <Nav.Link><Link style={navStyles} to="/todoreactapp/">Homes</Link></Nav.Link>
+                <Nav.Link><Link style={navStyles} to="/todoreactapp/home">Table</Link></Nav.Link>
+                <Nav.Link><Link style={navStyles} to="/todoreactapp/about">About</Link></Nav.Link>
             </Nav>
         </Navbar>
         

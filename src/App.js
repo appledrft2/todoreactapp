@@ -73,7 +73,7 @@ class App extends Component {
 
         <Header></Header>
 
-        <Route exact path="/" render= {props => (
+        <Route exact path="/todoreactapp/" render= {props => (
           <React.Fragment>
             <div className="container">
                 <Todos
@@ -87,11 +87,11 @@ class App extends Component {
         )}
         />
 
-        <Route path="/about" component={About} />
+        <Route path="/todoreactapp/about" component={About} />
 
 
 
-        <Route exact path="/home" render={props => (
+        <Route exact path="/todoreactapp/home" render={props => (
           <React.Fragment>
             <Home todos={this.state.todos} ></Home>
           </React.Fragment>
